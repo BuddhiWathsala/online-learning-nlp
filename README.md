@@ -1,4 +1,4 @@
-# online-learning-nlp
+# Online Learning for Solving Data Availability Problem in Natural Language Processing
 ## Problem
 Machine learning (ML) models need large data sources to obtain better accuracies. However, obtaining a large data source at once take many resources. In practical we obtain large data sources incrementally, often as a several mini-batches. The batch learning techniques in ML need to retrain the model from scratch when we attain a mini-batch. This problem exists in most of the ML models which follow batch learning techniques. This problem also exists in Natural Language Processing (NLP) tasks. In this project we propose solutions to this problem using online machine learning techniques. Online machine learning techniques has tha capability of training incrementally using the data obtain as a stream. 
 
@@ -39,3 +39,7 @@ Move to the `src/` directory and run the code using terminal with following argu
   1. `arg6`: True if you initially train the model. False indicates you train the model in an intermediate incremental step.
 
 First two arguments are compulsory. Others are optional. When you miss the optional paramenters, those paramentes will take default values.
+
+## Publication
+
+Find the research publication [here](http://ceur-ws.org/Vol-2521/paper-04.pdf)
